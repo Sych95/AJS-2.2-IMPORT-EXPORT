@@ -1,0 +1,42 @@
+{
+  "name": "import__export",
+  "version": "1.0.0",
+  "description": "Import/export homework",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sych95/AJS-2.2-IMPORT-EXPORT.git"
+  },
+  "keywords": [
+    "import__export"
+  ],
+  "author": "Sych95",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sych95/AJS-2.2-IMPORT-EXPORT/issues"
+  },
+  "homepage": "https://github.com/Sych95/AJS-2.2-IMPORT-EXPORT#readme",
+  "dependencies": {
+    "core-js": "^3.19.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.25.2",
+    "html-loader": "^3.0.1",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.61.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0"
+  }
+}
